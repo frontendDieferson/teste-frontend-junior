@@ -1,0 +1,128 @@
+button{
+    border: none;
+    background: none;
+    font: none;
+    cursor: pointer;
+  }
+  
+  .wrapper{
+    background-color: #f4f4f4;
+    height: 773px;
+    width: 375px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .containerone {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 16px;
+    width: 357px;
+    height: 315px;
+    background: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.25);
+    box-sizing: border-box;
+    border-radius: 4px;
+  }
+  
+  .containertwo {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 16px;
+    width: 357px;
+    height: 315px;
+    background: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.25);
+    box-sizing: border-box;
+    border-radius: 4px;
+    margin-top: 15px
+  }
+  
+  .composertracks{
+    margin-top: 16px;
+  }
+  
+  .trackdiv{
+    width: 317px;
+    height: 54px;
+    background: rgba(0, 0, 0, 0.15);
+    /* background: #FFFFFF; */
+  }
+  
+  .composerprofile{
+      display: flex;
+      flex-direction: row;
+      align-items: flex-start;
+      height: 96px;
+  }
+  
+  .composerphoto{
+      width: 92px;
+      height: 92px;
+  }
+  
+  .composerwork{
+    width: 194px;
+    height: 66px;
+    margin-left: 8px;
+    margin-top: 0px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 28px;
+    line-height: 33px;
+    color: #000000;
+  }
+  
+  .composername{
+    margin-top: -22px;
+    margin-left: 8px;
+    font-family: 'Roboto', sans-serif;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 26px;
+    color: rgba(0, 0, 0, 0.45);
+  }
+  
+  
+  .player{
+    width: 375px;
+    height: 128px;
+    margin-left: 0px;
+    background: #FFFFFF;
+  }
+  
+  .previous img{
+    width: 100%;
+    max-width: 60px;
+    height: 65px;
+  }
+  
+  .playpause img{
+    width: 100%;
+    max-width: 116px;
+    height: 114px;
+  }
+  
+  .next img{
+    width: 100%;
+    max-width: 60px;
+    height: 65px;
+  }
+  
+  .controls {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 128px;
+    border-top: 1px solid rgba(0, 0, 0, 0.25);
+    margin: 0 auto;
+  }
+  
+  .composerinfos {
+    margin-left: 8px;
+  }

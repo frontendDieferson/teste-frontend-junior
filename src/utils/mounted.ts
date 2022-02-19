@@ -1,3 +1,4 @@
 export const mounted = function (callback: Function) {
-  setTimeout(callback, 10);
-};
+    setTimeout(callback, 10);
+  };
+  
